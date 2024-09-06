@@ -1,0 +1,87 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    padding: 20px;
+    background-color: #ffffff;
+}
+
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+h2 {
+    color: #444;
+}
+
+h3 {
+    color: #555;
+}
+
+
+#profile img {
+    display: block;
+    margin: 0 auto;
+    border-radius: 50%;
+
+
+
+    
+}
+
+
+#about-me {
+    margin-top: 30px;
+}
+
+#about-me p {
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+
+#bucket-list table {
+    width: 100%;
+    
+    margin-top: 20px;
+}
+
+#bucket-list th, #bucket-list td {
+    
+   
+    text-align: left;
+}
+
+
+
+
+
+
+video, audio {
+    display: block;
+
+
+    margin: 20px auto;
+}
+
+
+button {
+    display: block;
+    margin: 30px auto;
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+
+
+
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}

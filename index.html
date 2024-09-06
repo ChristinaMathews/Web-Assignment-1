@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="christina mathews">
+    <meta name="description" content="website about author Christina Mathews">
+    <title>Christina Mathews</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>About Christina Mathews</h1>
+    
+   
+    <section id="profile">
+        <a href="https://www.instagram.com/christinamathews912/" >
+            <img src="profilePic.jpg" alt="Christina Mathews" width="200">
+        </a>
+    </section>
+
+   
+    <section id="about-me">
+        <h2>About Me</h2>
+        <p>I'm a cs student at mar baselios college</p>
+    </section>
+
+  
+    <section id="bucket-list">
+        <h2>My Bucket List</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Serial Number</th>
+                    <th>Item</th>
+                    <th>Status</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Visit Kyoto</td>
+                    <td>Not completed</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Collect one piece manga</td>
+                    <td>Not Completed</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Make animated videos</td>
+                    <td>Not completed</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>Draw manga</td>
+                    <td>In progress</td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td>Travel to Europe</td>
+                    <td>Not completed</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+   
+    <section id="media">
+        <h2>My Favorite Movie and Song</h2>
+        <h3>Movie:</h3>
+       
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/LV-nazLVmgo?si=lKNm7Kn1uL6Y-MOA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+        <h3>Song:</h3>
+        <audio controls>
+            <source src="favouritesong.mp3" type="audio/mpeg">
+            
+        </audio>
+    </section>
+
+    
+    <button onclick="displayMessage()">Click Here</button>
+
+    <script>
+      
+        function displayMessage() {
+            alert("Hello, welcome to my page!");
+        }
+
+        
+        document.querySelector('img').addEventListener('mouseover', function() {
+            document.body.style.backgroundColor = '#E6E6FA';
+        });
+
+        document.querySelector('img').addEventListener('mouseout', function() {
+            document.body.style.backgroundColor = '#ffffff';
+        });
+    </script>
+</body>
+</html>
